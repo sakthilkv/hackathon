@@ -8,7 +8,6 @@ import StatsSection from '@/components/StatsSection';
 export default function Page() {
 	return (
 		<>
-			<NavBar />
 			<Hero />
 			<StatsSection />
 			<Sponsors />
