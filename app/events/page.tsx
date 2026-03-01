@@ -105,7 +105,9 @@ export default function EventsPage() {
 									</div>
 
 									<div className="mt-auto flex gap-3">
-										<Button className="flex-1">Register</Button>
+										<Button asChild className="flex-1">
+											<Link href={`/events/register/`}>Register</Link>
+										</Button>
 
 										<Button asChild variant="outline" className="flex-1">
 											<Link href={`/events/${event.slug}`}>See Details</Link>

@@ -33,7 +33,7 @@ export default function SponsorsSection() {
 	];
 
 	return (
-		<section className="pb-16 bg-white">
+		<section id="sponsors" className="pb-16 bg-white scroll-mt-24">
 			<div className="max-w-7xl mx-auto px-6 text-center mb-10">
 				<h2 className="text-3xl font-bold">Our Sponsors</h2>
 				<p className="text-gray-500 mt-2">Backed by industry leaders</p>

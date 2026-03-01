@@ -11,8 +11,6 @@ export default function Page() {
 			<Hero />
 			<StatsSection />
 			<Sponsors />
-			<FeaturedEvents />
-			<Footer />
 		</>
 	);
 }
